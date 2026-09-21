@@ -1,0 +1,315 @@
+{
+  "desde": "2026-09-13",
+  "hasta": "2026-09-19",
+  "periodo_anterior": { "desde": "2026-09-06", "hasta": "2026-09-12" },
+
+  "cuenta": {
+    "desde": "2026-09-13",
+    "hasta": "2026-09-19",
+    "dias_esperados": 7,
+    "dias_cargados": 6,
+    "totales": {
+      "dias": 6,
+      "costo": 1240.0,
+      "pedidos": 38,
+      "ingreso_bruto": 1364.0,
+      "costo_por_pedido": 32.63,
+      "roi": 1.1
+    },
+    "dias": [
+      { "fecha": "2026-09-13", "costo": 180.0, "pedidos": 7, "ingreso_bruto": 246.0, "roi": 1.37 },
+      { "fecha": "2026-09-14", "costo": 195.0, "pedidos": 6, "ingreso_bruto": 228.0, "roi": 1.17 },
+      { "fecha": "2026-09-15", "costo": 220.0, "pedidos": 8, "ingreso_bruto": 286.0, "roi": 1.3 },
+      { "fecha": "2026-09-17", "costo": 215.0, "pedidos": 6, "ingreso_bruto": 204.0, "roi": 0.95 },
+      { "fecha": "2026-09-18", "costo": 220.0, "pedidos": 5, "ingreso_bruto": 202.0, "roi": 0.92 },
+      { "fecha": "2026-09-19", "costo": 210.0, "pedidos": 6, "ingreso_bruto": 198.0, "roi": 0.94 }
+    ]
+  },
+
+  "cuenta_anterior": {
+    "dias_cargados": 7,
+    "totales": {
+      "dias": 7,
+      "costo": 930.0,
+      "pedidos": 61,
+      "ingreso_bruto": 2232.0,
+      "costo_por_pedido": 15.25,
+      "roi": 2.4
+    }
+  },
+
+  "comparacion_cuenta": {
+    "costo": { "actual": 1240.0, "anterior": 930.0, "cambio": 310.0, "cambio_pct": 0.3333 },
+    "pedidos": { "actual": 38, "anterior": 61, "cambio": -23.0, "cambio_pct": -0.377 },
+    "ingreso_bruto": { "actual": 1364.0, "anterior": 2232.0, "cambio": -868.0, "cambio_pct": -0.3889 },
+    "roi": { "actual": 1.1, "anterior": 2.4, "cambio": -1.3, "cambio_pct": -0.5417 },
+    "costo_por_pedido": { "actual": 32.63, "anterior": 15.25, "cambio": 17.38, "cambio_pct": 1.1397 }
+  },
+
+  "_nota_campanas": "Recortado a 3. El real trae hasta 15 (parametro campanas_limite).",
+  "campanas": [
+    {
+      "campana_id": "c-20481",
+      "campana_nombre": "Recovery Kit",
+      "costo": 430.0,
+      "pedidos": 0,
+      "ingreso_bruto": 0.0,
+      "impresiones": 210000,
+      "clics": 2100,
+      "roi": null,
+      "costo_por_pedido": null,
+      "ctr": 0.01,
+      "pedidos_por_clic": 0.0,
+      "cpm": 2.05,
+      "dias_con_datos": 6,
+      "dias_parciales": 1,
+      "dias_sin_confirmar": 0,
+      "ultimo_dia": "2026-09-19",
+      "participacion_costo": 0.3625,
+      "comparacion": {
+        "costo": { "actual": 430.0, "anterior": 180.0, "cambio": 250.0, "cambio_pct": 1.3889 },
+        "ingreso_bruto": { "actual": 0.0, "anterior": 96.0, "cambio": -96.0, "cambio_pct": -1.0 },
+        "pedidos": { "actual": 0, "anterior": 4, "cambio": -4.0, "cambio_pct": -1.0 },
+        "roi": { "actual": null, "anterior": 0.53, "cambio": -0.53, "cambio_pct": -1.0 },
+        "costo_por_pedido": { "actual": null, "anterior": 45.0, "cambio": -45.0, "cambio_pct": -1.0 }
+      },
+      "es_nueva": false
+    },
+    {
+      "campana_id": "c-20355",
+      "campana_nombre": "Faja Salome",
+      "costo": 512.0,
+      "pedidos": 22,
+      "ingreso_bruto": 716.8,
+      "impresiones": 380000,
+      "clics": 6840,
+      "roi": 1.4,
+      "costo_por_pedido": 23.27,
+      "ctr": 0.018,
+      "pedidos_por_clic": 0.003216,
+      "cpm": 1.35,
+      "dias_con_datos": 6,
+      "dias_parciales": 1,
+      "dias_sin_confirmar": 0,
+      "ultimo_dia": "2026-09-19",
+      "participacion_costo": 0.4317,
+      "comparacion": {
+        "costo": { "actual": 512.0, "anterior": 300.0, "cambio": 212.0, "cambio_pct": 0.7067 },
+        "ingreso_bruto": { "actual": 716.8, "anterior": 930.0, "cambio": -213.2, "cambio_pct": -0.2292 },
+        "pedidos": { "actual": 22, "anterior": 31, "cambio": -9.0, "cambio_pct": -0.2903 },
+        "roi": { "actual": 1.4, "anterior": 3.1, "cambio": -1.7, "cambio_pct": -0.5484 },
+        "costo_por_pedido": { "actual": 23.27, "anterior": 9.68, "cambio": 13.59, "cambio_pct": 1.404 }
+      },
+      "es_nueva": false
+    },
+    {
+      "campana_id": "c-20612",
+      "campana_nombre": "Bra de compresion",
+      "costo": 244.0,
+      "pedidos": 14,
+      "ingreso_bruto": 585.6,
+      "impresiones": 156000,
+      "clics": 3432,
+      "roi": 2.4,
+      "costo_por_pedido": 17.43,
+      "ctr": 0.022,
+      "pedidos_por_clic": 0.004079,
+      "cpm": 1.56,
+      "dias_con_datos": 5,
+      "dias_parciales": 0,
+      "dias_sin_confirmar": 0,
+      "ultimo_dia": "2026-09-19",
+      "participacion_costo": 0.2057,
+      "comparacion": {
+        "costo": { "actual": 244.0, "anterior": 0.0, "cambio": 244.0, "cambio_pct": null },
+        "ingreso_bruto": { "actual": 585.6, "anterior": 0.0, "cambio": 585.6, "cambio_pct": null },
+        "pedidos": { "actual": 14, "anterior": 0, "cambio": 14.0, "cambio_pct": null },
+        "roi": { "actual": 2.4, "anterior": null, "cambio": 2.4, "cambio_pct": null },
+        "costo_por_pedido": { "actual": 17.43, "anterior": null, "cambio": 17.43, "cambio_pct": null }
+      },
+      "es_nueva": true
+    }
+  ],
+  "total_campanas": 3,
+
+  "totales_campanas": {
+    "costo": 1186.0,
+    "pedidos": 36,
+    "ingreso_bruto": 1302.4,
+    "impresiones": 746000,
+    "clics": 12372,
+    "roi": 1.1,
+    "costo_por_pedido": 32.94,
+    "ctr": 0.016584,
+    "pedidos_por_clic": 0.00291,
+    "cpm": 1.59
+  },
+
+  "comparacion_campanas": {
+    "costo": { "actual": 1186.0, "anterior": 480.0, "cambio": 706.0, "cambio_pct": 1.4708 },
+    "ingreso_bruto": { "actual": 1302.4, "anterior": 1026.0, "cambio": 276.4, "cambio_pct": 0.2694 },
+    "pedidos": { "actual": 36, "anterior": 35, "cambio": 1.0, "cambio_pct": 0.0286 },
+    "roi": { "actual": 1.1, "anterior": 2.14, "cambio": -1.04, "cambio_pct": -0.486 },
+    "costo_por_pedido": { "actual": 32.94, "anterior": 13.71, "cambio": 19.23, "cambio_pct": 1.4026 }
+  },
+
+  "_nota_creativos": "Recortado a 3. El real trae 15, ordenados por costo.",
+  "creativos": [
+    {
+      "clave": "v-8820",
+      "tipo_creativo": "video",
+      "video_id": "v-8820",
+      "video_titulo": "Recovery kit unboxing",
+      "cuenta_tiktok": "@beautyglo",
+      "producto_id": "p-114",
+      "productos": 1,
+      "campanas": 1,
+      "publicado_en": "2026-09-02T14:20:00+00:00",
+      "dias": 5,
+      "costo": 96.0,
+      "pedidos": 0,
+      "ingreso_bruto": 0.0,
+      "impresiones": 78000,
+      "clics": 1170,
+      "roi": null,
+      "costo_por_pedido": null,
+      "ctr": 0.015,
+      "pedidos_por_clic": 0.0,
+      "cpm": 1.23,
+      "retencion": {
+        "impresiones_video": 78000,
+        "vista_2s": 0.31,
+        "vista_6s": 0.14,
+        "vista_25": 0.09,
+        "vista_50": 0.04,
+        "vista_75": 0.02,
+        "vista_100": 0.01
+      }
+    },
+    {
+      "clave": "v-7412",
+      "tipo_creativo": "video",
+      "video_id": "v-7412",
+      "video_titulo": "Faja azul antes y despues",
+      "cuenta_tiktok": "@beautyglo",
+      "producto_id": "p-087",
+      "productos": 1,
+      "campanas": 2,
+      "publicado_en": "2026-08-28T19:05:00+00:00",
+      "dias": 7,
+      "costo": 88.0,
+      "pedidos": 14,
+      "ingreso_bruto": 334.4,
+      "impresiones": 96000,
+      "clics": 2112,
+      "roi": 3.8,
+      "costo_por_pedido": 6.29,
+      "ctr": 0.022,
+      "pedidos_por_clic": 0.006629,
+      "cpm": 0.92,
+      "retencion": {
+        "impresiones_video": 96000,
+        "vista_2s": 0.5,
+        "vista_6s": 0.28,
+        "vista_25": 0.21,
+        "vista_50": 0.12,
+        "vista_75": 0.07,
+        "vista_100": 0.04
+      }
+    },
+    {
+      "clave": "v-9015",
+      "tipo_creativo": "video",
+      "video_id": "v-9015",
+      "video_titulo": "Rutina de uso 30s",
+      "cuenta_tiktok": "@beautyglo",
+      "producto_id": null,
+      "productos": 3,
+      "campanas": 2,
+      "publicado_en": "2026-09-09T11:40:00+00:00",
+      "dias": 6,
+      "costo": 76.0,
+      "pedidos": 3,
+      "ingreso_bruto": 68.4,
+      "impresiones": 64000,
+      "clics": 896,
+      "roi": 0.9,
+      "costo_por_pedido": 25.33,
+      "ctr": 0.014,
+      "pedidos_por_clic": 0.003348,
+      "cpm": 1.19,
+      "retencion": {
+        "impresiones_video": 64000,
+        "vista_2s": 0.27,
+        "vista_6s": 0.11,
+        "vista_25": 0.07,
+        "vista_50": 0.03,
+        "vista_75": 0.01,
+        "vista_100": 0.01
+      }
+    }
+  ],
+
+  "cobertura": {
+    "desde": "2026-09-13",
+    "hasta": "2026-09-19",
+    "dias": 7,
+    "dias_sin_resumen": 1,
+    "dias_sin_creativos": 1,
+    "dias_parciales": 1,
+    "dias_sin_confirmar": 0,
+    "dias_completos": 5,
+    "faltantes": [
+      { "fecha": "2026-09-16", "resumen_diario": false, "creativos": "falta" },
+      { "fecha": "2026-09-17", "resumen_diario": true, "creativos": "parcial" }
+    ]
+  },
+
+  "alertas": [
+    {
+      "gravedad": "alta",
+      "tipo": "campana_sin_pedidos",
+      "titulo": "Recovery Kit: $430.00 sin un solo pedido",
+      "detalle": "En 6 dia(s) con datos gasto $430.00 y no registro pedidos.",
+      "campana_id": "c-20481",
+      "costo": 430.0
+    },
+    {
+      "gravedad": "alta",
+      "tipo": "creativo_sin_pedidos",
+      "titulo": "Creativo sin pedidos: Recovery kit unboxing",
+      "detalle": "Gasto $96.00 en 5 dia(s) y 1 campana(s), con 78,000 impresiones y ningun pedido.",
+      "clave": "v-8820",
+      "costo": 96.0
+    },
+    {
+      "gravedad": "media",
+      "tipo": "campana_gasto_sube_roi_baja",
+      "titulo": "Faja Salome: gasta $212.00 mas y rinde menos",
+      "detalle": "El gasto subio 71% frente al periodo anterior y el ROI paso de 3.1x a 1.4x.",
+      "campana_id": "c-20355",
+      "costo": 512.0
+    },
+    {
+      "gravedad": "media",
+      "tipo": "creativo_roi_bajo",
+      "titulo": "Creativo por debajo de 1.0x: Rutina de uso 30s",
+      "detalle": "Gasto $76.00 y devolvio $68.40 (ROI 0.9x).",
+      "clave": "v-9015",
+      "costo": 76.0,
+      "roi": 0.9
+    },
+    {
+      "gravedad": "aviso",
+      "tipo": "datos_incompletos",
+      "titulo": "El rango tiene dias sin cargar o cargados a medias",
+      "detalle": "1 dia(s) sin resumen diario, 1 sin creativos y 1 parciales: los totales quedan por debajo de lo real.",
+      "dias_sin_resumen": 1,
+      "dias_sin_creativos": 1,
+      "dias_parciales": 1
+    }
+  ],
+
+  "umbrales": { "roi_minimo": 1.0, "costo_minimo": 20.0 },
+  "monedas": ["USD"]
+}

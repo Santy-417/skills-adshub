@@ -1,0 +1,59 @@
+{
+  "desde": "2026-09-13",
+  "hasta": "2026-09-19",
+  "titulo": "Anuncios del 13 al 19 de septiembre: el retorno cayo a la mitad",
+  "resumen": "El gasto subio a $1.240 (+33%) y el ROI bajo de 2,4x a 1,1x. Recovery Kit se llevo $430 sin un solo pedido. Ojo: falta cargar el miercoles 16 y al jueves 17 le faltan horas.",
+
+  "cuerpo": "## Antes de creerle a estos numeros\n\nFalta el miercoles 16 entero y al jueves 17 le faltan horas. Son 6 dias cargados de 7, asi que todos los totales de abajo estan por debajo de lo real.\n\n## Que paso\n\n| | Esta semana | Semana pasada |\n|---|---|---|\n| Inversion | $1.240 | $930 |\n| Ingreso | $1.364 | $2.232 |\n| ROI | 1,1x | 2,4x |\n| Pedidos | 38 | 61 |\n| Costo por pedido | $32,63 | $15,25 |\n\nSe invirtieron $310 mas y volvieron $868 menos. Cada pedido costo el doble que la semana pasada.\n\nAyer, 19 de septiembre, se gastaron $210 y volvieron $198. Los tres dias cargados desde el jueves estan por debajo de 1x, o sea que no alcanzan a devolver lo invertido.\n\n## Que esta quemando plata\n\n- **Recovery Kit**: $430 en 6 dias y ningun pedido. Es la campana que mas gasto de las tres.\n- **Recovery kit unboxing** (video): $96 en 5 dias, 78.000 personas lo vieron y nadie compro. Solo 31 de cada 100 aguantan los primeros 2 segundos.\n- **Faja Salome**: gasto $212 mas que la semana pasada y el retorno paso de 3,1x a 1,4x.\n- **Rutina de uso 30s** (video): gasto $76 y devolvio $68,40.\n\n## Que esta funcionando\n\n- **Bra de compresion** es campana nueva, no existia la semana pasada: gasto $244 y devolvio $585,60 (ROI 2,4x). Es la unica de las tres por encima de 2x.\n- **Faja azul antes y despues** (video): gasto $88 y trajo 14 pedidos (ROI 3,8x). Cada pedido salio en $6,29, contra $32,94 que costo en promedio un pedido en las campanas. La mitad de quienes lo abren llega a los 2 segundos, el mejor del grupo.\n\n## Que mirar\n\n1. Recovery Kit: $430 en 6 dias sin un solo pedido.\n2. Faja Salome: se le subio el gasto 71% y el retorno cayo de 3,1x a 1,4x.\n3. Cargar el miercoles 16 y completar el jueves 17, para saber si la caida es tan grande como se ve.",
+
+  "hallazgos": [
+    {
+      "gravedad": "alta",
+      "tipo": "campana_sin_pedidos",
+      "titulo": "Recovery Kit: $430.00 sin un solo pedido",
+      "detalle": "En 6 dia(s) con datos gasto $430.00 y no registro pedidos.",
+      "campana_id": "c-20481",
+      "costo": 430.0
+    },
+    {
+      "gravedad": "alta",
+      "tipo": "creativo_sin_pedidos",
+      "titulo": "Creativo sin pedidos: Recovery kit unboxing",
+      "detalle": "Gasto $96.00 en 5 dia(s) y 1 campana(s), con 78,000 impresiones y ningun pedido.",
+      "clave": "v-8820",
+      "costo": 96.0
+    },
+    {
+      "gravedad": "media",
+      "tipo": "campana_gasto_sube_roi_baja",
+      "titulo": "Faja Salome: gasta $212.00 mas y rinde menos",
+      "detalle": "El gasto subio 71% frente al periodo anterior y el ROI paso de 3.1x a 1.4x.",
+      "campana_id": "c-20355",
+      "costo": 512.0
+    },
+    {
+      "gravedad": "media",
+      "tipo": "creativo_roi_bajo",
+      "titulo": "Creativo por debajo de 1.0x: Rutina de uso 30s",
+      "detalle": "Gasto $76.00 y devolvio $68.40 (ROI 0.9x).",
+      "clave": "v-9015",
+      "costo": 76.0,
+      "roi": 0.9
+    },
+    {
+      "gravedad": "aviso",
+      "tipo": "datos_incompletos",
+      "titulo": "El rango tiene dias sin cargar o cargados a medias",
+      "detalle": "1 dia(s) sin resumen diario, 1 sin creativos y 1 parciales: los totales quedan por debajo de lo real.",
+      "dias_sin_resumen": 1,
+      "dias_sin_creativos": 1,
+      "dias_parciales": 1
+    }
+  ],
+
+  "datos": {
+    "_ejemplo": "Aqui va el JSON COMPLETO de /resumen, tal cual llego. Se omite aqui solo por tamano: es el contenido de resumen.json."
+  },
+
+  "modelo": "claude-opus-5"
+}

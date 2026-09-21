@@ -1,0 +1,9 @@
+{
+  "hoy": "2026-09-20",
+  "primer_dia": "2026-08-15",
+  "ultimo_dia": "2026-09-15",
+  "dias_cargados": 32,
+  "dia_vencido": "2026-09-19",
+  "falta_el_dia_vencido": false,
+  "hora_limite": "10:00:00"
+}
