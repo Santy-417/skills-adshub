@@ -1,0 +1,10 @@
+# Credenciales: la llave del API vive en el entorno donde corre la tarea,
+# nunca aquí.
+.env
+.env.*
+!.env.example
+
+# Respuestas guardadas mientras se prueba una skill: traen cifras reales de la
+# operación y no tienen por qué quedar versionadas.
+*.local.json
+salidas/
