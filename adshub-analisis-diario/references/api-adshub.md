@@ -146,7 +146,6 @@ Cada campo comparado tiene siempre esta forma:
   "cpm": null,                 // costo por mil impresiones
   "dias_con_datos": 0,
   "dias_parciales": 0,         // días cuya carga estaba a medias
-  "dias_sin_confirmar": 0,
   "ultimo_dia": "...",
   "participacion_costo": null, // FRACCIÓN de la inversión del rango
   "comparacion": { /* costo, ingreso_bruto, pedidos, roi, costo_por_pedido */ },
@@ -195,7 +194,6 @@ fracción. `vista_2s: 0.5` es "la mitad llegó a los 2 segundos".
   "dias_sin_resumen": 0,
   "dias_sin_creativos": 1,
   "dias_parciales": 1,
-  "dias_sin_confirmar": 0,
   "dias_completos": 5,
   "faltantes": [
     { "fecha": "2026-09-17", "resumen_diario": true, "creativos": "parcial" }
@@ -207,9 +205,8 @@ Qué significa cada condición de `creativos`:
 
 | Marca | Qué significa, en palabras |
 |---|---|
-| `completo` | el día está entero |
+| `completo` | el día está entero: el archivo va de 00 a 23 |
 | `parcial` | **faltan horas de ese día**: el total queda por debajo de lo real |
-| `no_confirmado` | podría estar completo, pero no hay cómo afirmarlo |
 | `falta` | no hay creativos de ese día |
 
 ### Las alertas

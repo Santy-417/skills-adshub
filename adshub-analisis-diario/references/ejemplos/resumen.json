@@ -63,7 +63,6 @@
       "cpm": 2.05,
       "dias_con_datos": 6,
       "dias_parciales": 1,
-      "dias_sin_confirmar": 0,
       "ultimo_dia": "2026-09-19",
       "participacion_costo": 0.3625,
       "comparacion": {
@@ -90,7 +89,6 @@
       "cpm": 1.35,
       "dias_con_datos": 6,
       "dias_parciales": 1,
-      "dias_sin_confirmar": 0,
       "ultimo_dia": "2026-09-19",
       "participacion_costo": 0.4317,
       "comparacion": {
@@ -117,7 +115,6 @@
       "cpm": 1.56,
       "dias_con_datos": 5,
       "dias_parciales": 0,
-      "dias_sin_confirmar": 0,
       "ultimo_dia": "2026-09-19",
       "participacion_costo": 0.2057,
       "comparacion": {
@@ -257,7 +254,6 @@
     "dias_sin_resumen": 1,
     "dias_sin_creativos": 1,
     "dias_parciales": 1,
-    "dias_sin_confirmar": 0,
     "dias_completos": 5,
     "faltantes": [
       { "fecha": "2026-09-16", "resumen_diario": false, "creativos": "falta" },
